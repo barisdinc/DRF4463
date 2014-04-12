@@ -1,0 +1,135 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC LFSROK SPEEDOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F24K22 ]
+[d frameptr 4065 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"31 /opt/microchip/xc8/v1.31/sources/common/abtofl.c
+[v ___abtofl __abtofl `(d  1 e 3 0 ]
+"33 /opt/microchip/xc8/v1.31/sources/common/abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"36 /opt/microchip/xc8/v1.31/sources/common/altofl.c
+[v ___altofl __altofl `(d  1 e 3 0 ]
+"42 /opt/microchip/xc8/v1.31/sources/common/altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 /opt/microchip/xc8/v1.31/sources/common/attofl.c
+[v ___attofl __attofl `(d  1 e 3 0 ]
+"37 /opt/microchip/xc8/v1.31/sources/common/attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"31 /opt/microchip/xc8/v1.31/sources/common/awtofl.c
+[v ___awtofl __awtofl `(d  1 e 3 0 ]
+"32 /opt/microchip/xc8/v1.31/sources/common/awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"63 /opt/microchip/xc8/v1.31/sources/common/double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 /opt/microchip/xc8/v1.31/sources/common/fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"49 /opt/microchip/xc8/v1.31/sources/common/fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"50 /opt/microchip/xc8/v1.31/sources/common/flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.31/sources/common/flneg.c
+[v ___flneg __flneg `(d  1 e 3 0 ]
+"62 /opt/microchip/xc8/v1.31/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 /opt/microchip/xc8/v1.31/sources/common/flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"43 /opt/microchip/xc8/v1.31/sources/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 /opt/microchip/xc8/v1.31/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"49 /opt/microchip/xc8/v1.31/sources/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"51 /opt/microchip/xc8/v1.31/sources/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 /opt/microchip/xc8/v1.31/sources/common/ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"20 /opt/microchip/xc8/v1.31/sources/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 /opt/microchip/xc8/v1.31/sources/common/fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/common/lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 /opt/microchip/xc8/v1.31/sources/common/lbtofl.c
+[v ___lbtofl __lbtofl `(d  1 e 3 0 ]
+"27 /opt/microchip/xc8/v1.31/sources/common/lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 /opt/microchip/xc8/v1.31/sources/common/lltofl.c
+[v ___lltofl __lltofl `(d  1 e 3 0 ]
+"35 /opt/microchip/xc8/v1.31/sources/common/lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"9 /opt/microchip/xc8/v1.31/sources/common/lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 /opt/microchip/xc8/v1.31/sources/common/lttofl.c
+[v ___lttofl __lttofl `(d  1 e 3 0 ]
+"30 /opt/microchip/xc8/v1.31/sources/common/lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 /opt/microchip/xc8/v1.31/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 /opt/microchip/xc8/v1.31/sources/common/lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 3 0 ]
+"28 /opt/microchip/xc8/v1.31/sources/common/lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"9 /opt/microchip/xc8/v1.31/sources/common/tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"3 /opt/microchip/xc8/v1.31/sources/common/wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asfladd.c
+[v ___asfladd __asfladd `(d  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asfldiv.c
+[v ___asfldiv __asfldiv `(d  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asflmul.c
+[v ___asflmul __asflmul `(d  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asflsub.c
+[v ___asflsub __asflsub `(d  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asftadd.c
+[v ___asftadd __asftadd `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asftdiv.c
+[v ___asftdiv __asftdiv `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asftmul.c
+[v ___asftmul __asftmul `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/asftsub.c
+[v ___asftsub __asftsub `(f  1 e 3 0 ]
+"4 /opt/microchip/xc8/v1.31/sources/pic18/aslmul.c
+[v ___aslmul __aslmul `(ul  1 e 4 0 ]
+"14 /home/baris/MPLABXProjects/MyTest.X/main.c
+[v _main main `(i  1 e 2 0 ]
+[v _main main `(i  1 e 2 0 ]
+{
+[v main@argc argc `i  1 p 2 0 ]
+[v main@argv argv `*.2*.2uc  1 p 3 2 ]
+"17
+} 0
